@@ -1,0 +1,3 @@
+NEWPROJECT "F:/CECS 301/LABS/Lab 8 - 16-bit RISC Processor/RISC_PROCESSOR_16bit/ipcore_dir/coregen.cgp"
+SETPROJECT "F:/CECS 301/LABS/Lab 8 - 16-bit RISC Processor/RISC_PROCESSOR_16bit/ipcore_dir/coregen.cgp"
+LAUNCHXCO "F:/CECS 301/LABS/Lab 8 - 16-bit RISC Processor/RISC_PROCESSOR_16bit/ipcore_dir/ramc_256x16.xco"

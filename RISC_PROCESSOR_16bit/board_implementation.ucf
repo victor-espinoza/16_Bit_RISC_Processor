@@ -1,0 +1,36 @@
+NET "clk" 		  		LOC="B8";
+
+//push buttons
+NET "step_clk" 	   LOC="B18";
+NET "step_mem"			LOC="D18";
+NET "reset" 	  		LOC="H13";
+
+//switches
+NET "AD_sel" 	  		LOC="R17";
+NET "dump_mem" 	  	LOC="G18";
+
+//annodes
+NET "a3" 		  		LOC="F15";
+NET "a2" 		  		LOC="C18";
+NET "a1" 		  		LOC="H17";
+NET "a0" 		  		LOC="F17";
+
+//LED's
+NET "status(0)" 		LOC="J14";
+NET "status(1)" 		LOC="J15";
+NET "status(2)" 		LOC="K15";
+NET "status(3)" 		LOC="K14";
+NET "status(4)" 		LOC="E17";
+NET "status(5)" 		LOC="P15";
+NET "status(6)" 		LOC="F4";
+NET "status(7)" 		LOC="R4";
+
+
+//seven segment display locations
+NET "a"    	     		LOC= "L18";
+NET "b"   	     		LOC= "F18";
+NET "c"    	     		LOC= "D17";
+NET "d"   	     		LOC= "D16";
+NET "e"   	     		LOC= "G14";
+NET "f"   	     		LOC= "J17";
+NET "g"   	    	   LOC= "H14";

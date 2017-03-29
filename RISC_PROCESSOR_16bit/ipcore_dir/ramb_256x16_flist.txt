@@ -1,0 +1,16 @@
+# Output products list for <ramb_256x16>
+_xmsgs\pn_parser.xmsgs
+blk_mem_gen_ds512.pdf
+blk_mem_gen_readme.txt
+ramb_256x16.asy
+ramb_256x16.gise
+ramb_256x16.mif
+ramb_256x16.ngc
+ramb_256x16.v
+ramb_256x16.veo
+ramb_256x16.vhd
+ramb_256x16.vho
+ramb_256x16.xco
+ramb_256x16.xise
+ramb_256x16_flist.txt
+ramb_256x16_xmdf.tcl

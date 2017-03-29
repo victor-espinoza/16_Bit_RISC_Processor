@@ -1,0 +1,41 @@
+Release 12.2 ngdbuild M.63c (nt64)
+Copyright (c) 1995-2010 Xilinx, Inc.  All rights reserved.
+
+Command Line: C:\Xilinx\12.2\ISE_DS\ISE\bin\nt64\unwrapped\ngdbuild.exe
+-intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc board_implementation.ucf
+-p xc3s500e-fg320-5 top_level.ngc top_level.ngd
+
+Reading NGO file "E:/CECS 301/LABS/Lab 8 - 16-bit RISC
+Processor/RISC_PROCESSOR_16bit/top_level.ngc" ...
+Loading design module "ipcore_dir/ramc_256x16.ngc"...
+Applying constraints in "ipcore_dir/ramc_256x16.ncf" to module
+"ipcore_dir/ramc_256x16.ngc"...
+Checking Constraint Associations...
+Gathering constraint information from source properties...
+Done.
+
+Annotating constraints to design from ucf file "board_implementation.ucf" ...
+Resolving constraint associations...
+Checking Constraint Associations...
+Done...
+
+Checking expanded design ...
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Total memory usage is 141080 kilobytes
+
+Writing NGD file "top_level.ngd" ...
+Total REAL time to NGDBUILD completion:  14 sec
+Total CPU time to NGDBUILD completion:   5 sec
+
+Writing NGDBUILD log file "top_level.bld"...

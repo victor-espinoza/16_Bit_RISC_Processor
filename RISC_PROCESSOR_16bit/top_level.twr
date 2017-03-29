@@ -1,0 +1,103 @@
+--------------------------------------------------------------------------------
+Release 12.2 Trace  (nt64)
+Copyright (c) 1995-2010 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\12.2\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 5
+-n 3 -fastpaths -xml top_level.twx top_level.ncd -o top_level.twr top_level.pcf
+-ucf board_implementation.ucf
+
+Design file:              top_level.ncd
+Physical constraint file: top_level.pcf
+Device,package,speed:     xc3s500e,fg320,-5 (PRODUCTION 1.27 2010-06-22)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+INFO:Timing:3390 - This architecture does not support a default System Jitter 
+   value, please add SYSTEM_JITTER constraint to the UCF to modify the Clock 
+   Uncertainty calculation.
+INFO:Timing:3389 - This architecture does not support 'Discrete Jitter' and 
+   'Phase Error' calculations, these terms will be zero in the Clock 
+   Uncertainty calculation.  Please make appropriate modification to 
+   SYSTEM_JITTER to account for the unsupported Discrete Jitter and Phase 
+   Error.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Setup/Hold to clock clk1
+------------+------------+------------+------------------+--------+
+            |Max Setup to|Max Hold to |                  | Clock  |
+Source      | clk (edge) | clk (edge) |Internal Clock(s) | Phase  |
+------------+------------+------------+------------------+--------+
+dump_mem    |    3.105(R)|   -0.406(R)|clk_IBUFG         |   0.000|
+------------+------------+------------+------------------+--------+
+
+Clock clk1 to Pad
+------------+------------+------------------+--------+
+            | clk (edge) |                  | Clock  |
+Destination |   to PAD   |Internal Clock(s) | Phase  |
+------------+------------+------------------+--------+
+a           |   14.932(R)|clk_IBUFG         |   0.000|
+b           |   14.798(R)|clk_IBUFG         |   0.000|
+c           |   15.139(R)|clk_IBUFG         |   0.000|
+d           |   14.728(R)|clk_IBUFG         |   0.000|
+e           |   14.279(R)|clk_IBUFG         |   0.000|
+f           |   14.268(R)|clk_IBUFG         |   0.000|
+g           |   14.240(R)|clk_IBUFG         |   0.000|
+------------+------------+------------------+--------+
+
+Clock to Setup on destination clock clk1
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clk1           |   11.077|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+AD_sel         |a              |   11.845|
+AD_sel         |b              |   11.711|
+AD_sel         |c              |   12.052|
+AD_sel         |d              |   11.641|
+AD_sel         |e              |   11.192|
+AD_sel         |f              |   11.181|
+AD_sel         |g              |   11.153|
+dump_mem       |a              |   12.697|
+dump_mem       |b              |   12.563|
+dump_mem       |c              |   12.904|
+dump_mem       |d              |   12.493|
+dump_mem       |e              |   12.044|
+dump_mem       |f              |   12.033|
+dump_mem       |g              |   12.005|
+---------------+---------------+---------+
+
+
+Analysis completed Thu Dec 05 13:23:32 2013 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 173 MB
+
+
+
