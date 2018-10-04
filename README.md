@@ -1,5 +1,5 @@
 # Lab_8_16_Bit_RISC_Processor
-Project Overview:  
+Project Overview:
 Fully functioning 16-Bit RISC Processor using Verilog.  
   
 In this project, we complete the CECS 301 16-bit RISC Processor. This is done by connecting the CPU_EU with a timing and control unit (CU) Verilog module and the 256x16 Memory (developed in Lab_7). The CU is a Moore implementation of a finite state machine, where the outputs (control signals for the CPU_EU and Memory) are a function of the present state. The CU controls the execution of instructions for our 301 RISC Processor.  
