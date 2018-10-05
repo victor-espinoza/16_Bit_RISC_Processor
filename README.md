@@ -1,4 +1,4 @@
-# Lab_7_16_Bit_RISC_Processor
+# Lab_8_16_Bit_RISC_Processor
 Project Overview:
 Fully functioning 16-Bit RISC Processor using Verilog.  
   
